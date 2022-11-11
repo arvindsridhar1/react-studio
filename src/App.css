@@ -1,9 +1,54 @@
 /* Add styling for your page here */
 
 .App {
-
+    background-color: aqua;
 }
 
 .BakeryItem {
-  
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.items{
+    width: 18%;
+    padding: 20px;
+    margin: 2%;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cart{
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: lavender;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px solid #d9d9d9;
+    border-radius: 20px;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
